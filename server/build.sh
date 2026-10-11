@@ -22,7 +22,7 @@
 
 
 builddate="$(TZ='America/Los_Angeles' date +'%b %d %Y')"
-go build -ldflags="-s -w -X 'brutman.com/brutman/netdrv/globals.BuildDate=${builddate}'" -o netdrive brutman.com/brutman/netdrv
+go build -ldflags="-s -w -X 'brutman.com/brutman/netdrive/globals.BuildDate=${builddate}'" brutman.com/brutman/netdrive
 if [ "$?" -eq 0 ]; then
   if [ -n "$GOOS" ]; then
     if [ $GOARCH == "arm" ]; then
@@ -30,7 +30,5 @@ if [ "$?" -eq 0 ]; then
     else
       mv netdrive netdrive_${GOOS}_${GOARCH}
     fi
-  elif file netdrive | grep -q Windows; then
-    mv netdrive netdrive.exe
   fi
 fi

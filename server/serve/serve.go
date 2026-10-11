@@ -46,10 +46,10 @@ import (
 	"syscall"
 	"time"
 
-	"brutman.com/brutman/netdrv/bpb"
-	"brutman.com/brutman/netdrv/globals"
-	"brutman.com/brutman/netdrv/image"
-	"brutman.com/brutman/netdrv/mlog"
+	"brutman.com/brutman/netdrive/bpb"
+	"brutman.com/brutman/netdrive/globals"
+	"brutman.com/brutman/netdrive/image"
+	"brutman.com/brutman/netdrive/mlog"
 
 	"github.com/gdamore/tcell/v2"
 )

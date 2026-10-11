@@ -34,7 +34,7 @@
 package create
 
 import (
-	"brutman.com/brutman/netdrv/bpb"
+	"brutman.com/brutman/netdrive/bpb"
 	"bytes"
 	"encoding/binary"
 	"errors"

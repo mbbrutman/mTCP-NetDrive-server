@@ -1,6 +1,6 @@
 /*
 
-   mTCP NetDrive Server (netdrv.go)
+   mTCP NetDrive Server (netdrive.go)
    Copyright (C) 2023-2026 Michael B. Brutman (mbbrutman@gmail.com)
    mTCP web page: http://www.brutman.com/mTCP/mTCP.html
 
@@ -50,11 +50,11 @@ to get detailed help for those commands.
 package main
 
 import (
-	"brutman.com/brutman/netdrv/create"
-	"brutman.com/brutman/netdrv/globals"
-	"brutman.com/brutman/netdrv/image"
-	"brutman.com/brutman/netdrv/mlog"
-	"brutman.com/brutman/netdrv/serve"
+	"brutman.com/brutman/netdrive/create"
+	"brutman.com/brutman/netdrive/globals"
+	"brutman.com/brutman/netdrive/image"
+	"brutman.com/brutman/netdrive/mlog"
+	"brutman.com/brutman/netdrive/serve"
 	"flag"
 	"fmt"
 	"math/rand"

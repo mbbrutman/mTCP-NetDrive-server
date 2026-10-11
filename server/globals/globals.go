@@ -27,7 +27,7 @@ package globals
 
 // BuildDate is a text string passed in by the build system that serves as the version number.
 //
-// To set the buildDate use -ldflags="-X 'brutman.com/brutman/netdrv/globals.BuildDate=${builddate}'"
+// To set the buildDate use -ldflags="-X 'brutman.com/brutman/netdrive/globals.BuildDate=${builddate}'"
 // where $builddate has the text string.  Please use the YYYY-MM-DD ISO format.
 var BuildDate string
 

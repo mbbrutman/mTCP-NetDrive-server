@@ -1,4 +1,4 @@
-module brutman.com/brutman/netdrv
+module brutman.com/brutman/netdrive
 
 go 1.20
 

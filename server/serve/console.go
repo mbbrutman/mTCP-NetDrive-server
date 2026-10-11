@@ -54,8 +54,8 @@ import (
 	"strings"
 	"time"
 
-	"brutman.com/brutman/netdrv/globals"
-	"brutman.com/brutman/netdrv/mlog"
+	"brutman.com/brutman/netdrive/globals"
+	"brutman.com/brutman/netdrive/mlog"
 
 	"github.com/gdamore/tcell/v2"
 )

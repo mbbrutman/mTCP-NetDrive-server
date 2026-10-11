@@ -32,8 +32,8 @@
 package image
 
 import (
-	"brutman.com/brutman/netdrv/globals"
-	"brutman.com/brutman/netdrv/mlog"
+	"brutman.com/brutman/netdrive/globals"
+	"brutman.com/brutman/netdrive/mlog"
 	"bytes"
 	"encoding/binary"
 	"errors"
